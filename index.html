@@ -1,0 +1,329 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>remess个人简历</title>
+	<!--fonts-->
+		<link href='./css/other.css' rel='stylesheet' type='text/css'>
+		<link href='./css/google.css' type='text/css'>
+	<!--//fonts-->
+			<link href="css/bootstrap.css" rel="stylesheet">
+			<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script src="js/modernizr.custom.97074.js"></script>
+	<!-- js -->
+	<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+				var date = new Date();
+				year = date.getFullYear();
+				$('.time').text(year-2015);
+			});
+
+		</script>
+		<script src="js/iconfont.js"></script>
+		<style type="text/css">
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
+</style>
+	<!-- start-smoth-scrolling -->
+</head>
+<body>
+<!-- banner -->
+<div id="home" class="banner">
+	<div class="container">
+		<div class="banner-grids">
+			<div class="col-md-4 navigation">
+				<div class="nav-left">
+					<div class="grid__item color-4">
+						<a class="link link--kumya" href="#home"><span data-letters="REMESS">REMESS</span></a>
+					</div>
+				</div>
+				<div class="nav-right">
+						<span class="menu"><img src="images/menu.png" alt="" /></span>
+							<nav class="cl-effect-1">
+								<ul class="nav1">
+									<li><a class="scroll" href="#home">个人主页</a></li>
+									<li><a class="scroll" href="#about">简单介绍</a></li>
+									<li><a class="scroll" href="#portfolio">项目展示</a></li>
+									<li><a class="scroll" href="#services">个人评价</a></li>
+									<li><a class="scroll" href="#contact">联系方式</a></li>
+								</ul>
+							</nav>
+							<!-- script for menu -->
+							<script>
+								$( "span.menu" ).click(function() {
+								$( "ul.nav1" ).slideToggle( 300, function() {
+								 // Animation complete.
+								});
+								});
+							</script>
+							<!-- //script for menu -->
+
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="col-md-8 banner-image text-center">
+				<img src="images/banner.png" alt=""/>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!-- //banner -->
+<!-- about -->
+<div id="about" class="about">
+	<div class="container">
+		<div class="about-info">
+				<h3>简单介绍</h3>
+				<h4>拥有<strong class="time">n</strong>年开发经验的web developer</h4>
+				<p>自15年因不安现状，追求理想的生活，实现自己最初的梦想，</p>
+				<p>从而自学WEB开发相关技术到目前至今，</p>
+				<p>经历了很多迷茫，但现在依然坚持，并追求着。</p>
+				<p>我相信因坚持我将变得不一样！</p>
+		</div>
+		<div class="about-grids">
+		   	<div class="col-md-6 about-grid">
+		   		<h4>能做什么</h4>
+		   		<p>web开发，包括PHP，HTML/CSS，JS</p>
+		   		<p>服务器基本错误的排查</p>
+		   		<p>项目设计</p>
+		   	</div>
+		   	<div class="col-md-6 about-grid">
+		   		<h4>我的期望</h4>
+		   		<p>积极的工作气氛</p>
+		   		<p>成长平台，发展空间</p>
+		   		<p>更加理想的待遇</p>
+		   	</div>
+		   	<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!-- //about -->
+<div id="portfolio" class="gallery">
+		<div class="container">
+				<script src="js/jquery.chocolat.js"></script>
+			<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+			<!--light-box-files -->
+			<script type="text/javascript" charset="utf-8">
+			/*$(function() {
+				$('.gallery a').Chocolat();
+			});*/
+			</script>
+			<h3>项目介绍</h3>
+			<section>
+				<ul id="da-thumbs" class="da-thumbs">
+					<li>
+						<a href="https://github.com/ccwwonebyone/gitlar" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/a1.jpg" alt="" />
+							<div>
+								<h5>gitlar</h5>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/ccwwonebyone/face" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/a2.jpg" alt="" />
+							<div>
+								<h5>face</h5>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/ccwwonebyone/vuelar" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/a3.jpg" alt="" />
+							<div>
+								<h5>vuelar</h5>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/ccwwonebyone/s_python" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/a3.jpg" alt="" />
+							<div>
+								<h5>python</h5>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/ccwwonebyone/smart" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/a3.jpg" alt="" />
+							<div>
+								<h5>smart</h5>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/ccwwonebyone/notebook" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/a3.jpg" alt="" />
+							<div>
+								<h5>notebook</h5>
+							</div>
+						</a>
+					</li>
+					<div class="clearfix"> </div>
+				</ul>
+			</section>
+				<script type="text/javascript" src="js/jquery.hoverdir.js"></script>
+				<script type="text/javascript">
+					$(function() {
+						$(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
+					});
+				</script>
+        </div>
+</div>
+<!--//gallery-->
+<!--services-->
+<div id="services" class="services">
+	<div class="container">
+		<div class="ser-head">
+			<h3>个人评价</h3>
+		</div>
+		<div class="wel-grids">
+			<div class="col-md-4 wel-grid text-center">
+				<div class="btm-clr">
+					<figure class="icon">
+						<svg class="icon">
+						  <use xlink:href="#icon-php-fbd" aria-hidden="true"></use>
+						</svg>
+						<!-- <span class="glyphicon glyphicon-star" aria-hidden="true"></span> -->
+					</figure>
+					<h3>PHP</h3>
+					<p>精通PHP，<strong class="time"></strong>年开发经验</p>
+					<p>熟练掌握laravel,thinkphp等框架</p>
+					<p>熟练MYSQL，了解nosql及缓存技术</p>
+				</div>
+			</div>
+			<div class="col-md-4 wel-grid btm-gre text-center">
+				<div class="btm-clr">
+					<figure class="icon">
+						<svg class="icon">
+						  <use xlink:href="#icon-JS" aria-hidden="true"></use>
+						</svg>
+						<!-- <span class="glyphicon glyphicon-globe" aria-hidden="true"></span> -->
+					</figure>
+					<h3>JS</h3>
+					<p>熟练掌握 jquery</p>
+					<p>熟练掌握 vue.js</p>
+					<p>熟练掌握 easyui.js</p>
+				</div>
+			</div>
+			<div class="col-md-4 wel-grid text-center">
+				<div class="btm-clr">
+					<figure class="icon">
+						<svg class="icon">
+						  <use xlink:href="#icon-linux" aria-hidden="true"></use>
+						</svg>
+						<!-- <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> -->
+					</figure>
+					<h3>linux</h3>
+					<p>了解基本的linux命令</p>
+					<p>能够进行简单的linux排错</p>
+					<p>能够搭建php环境</p>
+				</div>
+			</div>
+			<div class="col-md-4 wel-grid btm-gre text-center">
+				<div class="btm-clr">
+					<figure class="icon">
+						<svg class="icon">
+						  <use xlink:href="#icon-Git" aria-hidden="true"></use>
+						</svg>
+						<!-- <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span> -->
+					</figure>
+					<h3>GIT</h3>
+					<p>掌握git的使用</p>
+					<p>搭建git服务器</p>
+				</div>
+			</div>
+			<div class="col-md-4 wel-grid text-center">
+				<div class="btm-clr">
+					<figure class="icon">
+						<svg class="icon">
+						  <use xlink:href="#icon-image-icon_python" aria-hidden="true"></use>
+						</svg>
+						<!-- <span class="glyphicon glyphicon-cog" aria-hidden="true"></span> -->
+					</figure>
+					<h3>python</h3>
+					<p>爬虫</p>
+					<p>深度学习keras</p>
+					<p>桌面应用pyqt</p>
+				</div>
+			</div>
+			<div class="col-md-4 wel-grid btm-gre text-center">
+				<div class="btm-clr">
+					<figure class="icon">
+						<svg class="icon">
+						  <use xlink:href="#icon-qita" aria-hidden="true"></use>
+						</svg>
+						<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+					</figure>
+					<h3>其他</h3>
+					<p>良好的代码风格</p>
+					<p>系统的架构</p>
+					<p>代码的复用性</p>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--//services-->
+<!-- get-in -->
+<div id="contact" class="get-in-touch">
+	<div class="container">
+		<div class="get-info text-center">
+			<h3>联系方式</h3>
+			<p>邮箱：552090340@qq.com</p>
+			<p>QQ：552090340</p>
+			<h4><i><a href="https://github.com/ccwwonebyone">github主页</a</i></h4>
+		</div>
+	</div>
+
+</div>
+<!-- //get-in -->
+<!-- footer -->
+<div class="copy-right">
+	<div class="container">
+		<p> &copy; ccwwonebyone 设计者  <a href="https://github.com/ccwwonebyone"> ccwwonebyone</a></p>
+	</div>
+</div>
+<!-- footer -->
+<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear'
+			};
+		*/
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+</body>
+</html>
